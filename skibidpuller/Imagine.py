@@ -62,3 +62,6 @@ else:
     print(currency)
     with open(f"{PlayFabTitleID}_currency.json", "w") as outfile:
         json.dump(currency, outfile)
+
+# Keep the console open
+input("Press Enter to exit...")
